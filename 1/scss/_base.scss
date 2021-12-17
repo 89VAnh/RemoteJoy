@@ -1,0 +1,109 @@
+html {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+input,
+textarea,
+select,
+button {
+  outline: none;
+}
+input {
+  line-height: normal;
+}
+label,
+button {
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+a,
+h1 {
+  color: #fff;
+}
+html,
+body {
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+  font-size: 16px;
+  background-color: rgb(25, 23, 54);
+  color: rgb(212, 210, 234);
+}
+.wrapper {
+  margin: 0 50px;
+}
+.btn {
+  background: linear-gradient(
+    100.23deg,
+    rgb(73, 21, 248) -26.81%,
+    rgb(255, 73, 107) 134.77%
+  );
+  border-radius: 30px;
+  box-shadow: 0px 2.54251px 11.4413px 0px #93236666;
+  padding: 14.6px 34px;
+  display: inline-block;
+}
+.text {
+  font-weight: 500;
+  line-height: 1.6;
+}
+.title {
+  font-size: 32px;
+  color: #fff;
+  margin-bottom: 50px;
+}
+@keyframes bhotOh {
+  from {
+    opacity: 0;
+    transform: scale(0.3);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+@keyframes kSotMB {
+  from {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 0.2;
+  }
+}
+@keyframes kitpAN {
+  from {
+    opacity: 0;
+    padding: 20px;
+  }
+
+  to {
+    opacity: 1;
+    padding: 0px;
+  }
+}
+@keyframes kitpBN {
+  from {
+    opacity: 0;
+    margin: 20px;
+  }
+
+  to {
+    opacity: 1;
+    margin: 0px;
+  }
+}

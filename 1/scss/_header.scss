@@ -1,0 +1,21 @@
+.headding {
+  position: fixed;
+  width: 1100px;
+  z-index: 99;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  background: linear-gradient(rgb(25, 23, 54) 0%, rgba(25, 23, 54, 0) 80%);
+  &-logo {
+    font-size: 40px;
+  }
+}
+.headding-author {
+  a {
+    font-weight: 500;
+  }
+  &-login {
+    padding: 14px 36px;
+  }
+}

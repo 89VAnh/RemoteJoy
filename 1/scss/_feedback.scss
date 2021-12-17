@@ -1,0 +1,52 @@
+.feedback {
+  .title {
+    width: 360px;
+    text-align: center;
+    margin: auto;
+    line-height: 1.2;
+  }
+  &-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-avatar {
+    margin-right: 18px;
+    z-index: 2;
+  }
+
+  .text {
+    margin: 16px 0;
+    font-size: 15px;
+    min-height: 72px;
+  }
+  &-card-stars {
+    img {
+      display: inline-block;
+    }
+  }
+  &-name {
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+  }
+  &-items {
+    padding: 50px;
+  }
+}
+.feedback-card {
+  background-color: #252340;
+  padding: 50px;
+  border-radius: 20px;
+}
+.feedbacker {
+  display: flex;
+  align-items: center;
+}
+.carousel-cell {
+  width: 50%;
+}
+.flickity-button,
+.flickity-page-dots {
+  display: none;
+}
